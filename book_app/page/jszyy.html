@@ -11,7 +11,9 @@
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<a class="mui-icon mui-icon-search mui-pull-right"></a>
 			<h1 class="mui-title">香港机动车驾驶证免试换证</h1>
+			
 		</header>
 		<div class="mui-content">
 			<div class="mui-content-padded" style="margin: 5px;">
@@ -20,13 +22,24 @@
 					<div class="mui-input-row">
 						<input type="text" class="mui-input-group">
 					</div>
+					
+					<h5 class="mui-content-padded">原生 SELECT</h5>
+					<div class="mui-input-row">
+					<select class="" style="border: 1px solid rgba(0,0,0,.2) !important;">
+						<option value="item-1">item-1</option>
+						<option value="item-2">item-2</option>
+						<option value="item-3">item-3</option>
+						<option value="item-4">item-4</option>
+						<option value="item-5">item-5</option>
+					</select>
+					</div>
 					<h5>身份证明名称：</h5>
 					<div class="mui-input-row">
 						<input type="text" class="mui-input-group">
 					</div>
 					<h5>证件号：</h5>
 					<div class="mui-input-row">
-						<input type="text" class="mui-input-group">
+						<input type="text" maxlength="11" class="mui-input-group">
 					</div>
 					<h5>手机号码：</h5>
 					<div class="mui-input-row">
@@ -47,7 +60,6 @@
 		
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
-			mui.init()
 		</script>
 	</body>
 
