@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>xx机动车检测站</title>
+		<link href="../css/mui.css" rel="stylesheet" type="text/css" />
+		<link href="../css/app.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body> 
+		<div class="mui-content">
+			<div class="i-content-padded">
+				<form action="" method="post">
+					<h5>号牌号码：</h5>
+					<div class="mui-input-row">
+						<select class="i-select i-col-2">
+							<option value="粤">粤</option>
+							<option value="鄂">鄂</option>
+							<option value="豫">豫</option>
+							<option value="皖">皖</option>
+							<option value="赣">赣</option>
+							<option value="冀">冀</option>
+							<option value="鲁">鲁</option>
+							<option value="浙">浙</option>
+						</select>
+						<input class="mui-input-group i-col-10" type="text" value="">
+					</div>
+					<h5>车辆类型：</h5>
+					<div class="mui-input-row">
+						<select class="i-select">
+							<option value="">小型汽车</option>
+							<option value="">大型汽车</option>
+							<option value="">挂车</option>
+						</select>
+					</div>
+					<h5>车架号(车辆识别号)后4位：</h5>
+					<div class="mui-input-row">
+						<input type="text" class="mui-input-group" value="">
+					</div>
+					<h5>发动机号：</h5>
+					<div class="mui-input-row">
+						<input type="text" class="mui-input-group" value="">
+					</div>
+					<div class="i-btn-box">
+						<button type="button" class="mui-btn i-btn-bule" onclick="window.location.href = 'car_list.html'">立即添加</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script data-main="../js/main/cancel_main" src="../js/require.min.js"></script>
+</html>
